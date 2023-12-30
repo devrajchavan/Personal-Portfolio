@@ -1,0 +1,200 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1e90ff;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.header-info {
+    text-align: left;
+}
+
+.small-font {
+    font-size: 0.8em;
+    color: #ddd;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+} */
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    position: relative; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding: 8px 16px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+nav ul li a:hover {
+    background-color: #1e90ff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.section-heading {
+    text-align: center;
+    color: #1e90ff;
+    margin-bottom: 40px;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project img {
+    width: 200px; 
+    border-radius: 8px 0 0 8px;
+}
+
+.project-info {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+}
+
+.project-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+
+.education-info {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.education-info:hover {
+    transform: scale(1.02);
+}
+
+.education-info h3 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+    color: #f793f2;
+}
+
+.education-info p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-category {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-category:hover {
+    transform: scale(1.02);
+}
+
+.skill-category h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #15f52f;
+}
+
+.skill-category p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #2bf13e;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
